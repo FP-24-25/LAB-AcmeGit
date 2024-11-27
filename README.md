@@ -8,7 +8,7 @@
 **Última modificación:** 27/11/2024
 
 
-Disponemos de datos de GitAcme, una plataforma para el alojamiento y la gestión de proyectos de desarrollo software basada en git, similar a GitHub o GitLab, y queremos explotarlos para añadir valor a los servicios proporcionados por la empresa. Los datos están almacenados en el archivo repositorios.csv que se le proporciona,  cuyas tres primeras líneas se muestran a continuación:
+Disponemos de datos de GitAcme, una plataforma para el alojamiento y la gestión de proyectos de desarrollo software basada en git, similar a GitHub o GitLab, y queremos explotarlos para añadir valor a los servicios proporcionados por la empresa. Los datos están almacenados en el archivo `repositorios.csv` que se le proporciona,  cuyas tres primeras líneas se muestran a continuación:
 
 ```
 repositorio, propietario, lenguajes, privado, commits
