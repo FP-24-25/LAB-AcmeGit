@@ -33,9 +33,9 @@ Commit = NamedTuple("Commit",   
 Repositorio = NamedTuple("Repositorio",
             [("nombre", str),  # Nombre del repositorio
              ("propietario", str), # Nombre del usuario propietario
-             ("lenguajes", Set[str]),  # Conjunto de lenguajes usados
+             ("lenguajes", set[str]),  # Conjunto de lenguajes usados
              ("privado", bool),  # Indica si es privado o público
-             ("commits", List[Commit])  # Lista de commits realizados
+             ("commits", list[Commit])  # Lista de commits realizados
              ])
 ````
 
